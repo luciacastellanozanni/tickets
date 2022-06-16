@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
+/* #img-bsas{
+    background-image: url(../img/ba1.jpg);
+    height:100%;
+}*/
+
+
+#fondo-bsas{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/ba1.jpg"); 
+}
+
+#boton-tickets{
+    background-color:rgb(101, 179, 56);
+    border-color: rgb(101, 179, 56);
+}
+
+#texto-boton-comprar{
+    text-decoration-line: none;
+    text-decoration-color: white;
+    text-decoration: none;
+    color:white;
+}
+
+#conf-tarjetas{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#comprar-tarjetas{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.tarjetas{
+   margin: 0px 10px;
+}
+
+.tarjetas-comprar{
+    margin:0px 5px;
+    text-align: center; 
+    width:250px; 
+    height:200px;
+    border-radius: 0%;
+   
+}
+
+.formulario{
+    width: 60%;
+    margin:auto;
+
+}
+
+.boton-enviar{
+    width:100%;
+    margin:10px 0px;
+    background: rgb(118, 201, 70);
+    border-color: rgb(118, 201, 70);
+}
+
+#seccion-3{
+
+    margin: 20px 0px;
+    justify-content: center;
+    flex-direction: row;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+#div-honolulu{
+    width:50%;
+
+}
+
+#honolulu{
+    width:100%;
+}
+
+#bsas-octubre{
+    background-color: rgb(64, 63, 65);
+    width:50%;
+    padding:15px;    
+}
+
+#btn-total{
+    text-align: left;
+    background-color: rgb(195, 225, 245);
+    width:  98%;
+    height: 50px;
+    color:black;
+    margin: 10px 10px;
+    border-style: none;
+}
+
+#titulos-footer{
+   display: flex; 
+   justify-content: space-around;
+   padding-left: 100px;
+   padding-right: 100px;
+}
+
+.piedepagina{
+    background: -moz-linear-gradient(45deg, rgb(9, 25, 54) 0%, #1d4372 100%);
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #110b49), color-stop(100%, #1d4372));
+    background: -webkit-linear-gradient(45deg, rgb(9, 25, 54 0%, #1d4372 100%);
+    background: -o-linear-gradient(45deg, rgb(9, 25, 54 0%, #1d4372 100%);
+    background: -ms-linear-gradient(45deg, rgb(9, 25, 54 0%, #1d4372 100%);
+     background: linear-gradient(45deg, rgb(9, 25, 54 0%, #1d4372 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$gradient-start', endColorstr='$gradient-end',GradientType=1 );
+    color: white; 
+  
+}
+
+
+
+/*#bsas{
+    width:100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    
+}*/
+
+/*.texto-flotante{
+    position:relative; !important
+    margin-top: 0%; !important
+    float:top; !important
+}*/
